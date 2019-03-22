@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1340.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="7.0" layoutY="7.0" prefHeight="76.0" prefWidth="1340.0" style="-fx-background-color: #123;" AnchorPane.bottomAnchor="624.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@images/cart.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="370.0" layoutY="21.0" prefHeight="35.0" prefWidth="424.0" text="Clintex Shop" textFill="#d3dd79" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="538.0" layoutY="50.0" prefHeight="24.0" prefWidth="143.0" text="you want it,we have it" textFill="#fffbfb">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="1217.0" layoutY="51.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="97.0" style="-fx-background-color: #d3d079;" text="Log out" AnchorPane.bottomAnchor="3.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="51.0" />
+         </children>
+      </AnchorPane>
+      <TabPane layoutY="76.0" prefHeight="424.0" prefWidth="464.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+        <tabs>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
